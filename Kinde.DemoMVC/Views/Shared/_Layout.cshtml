@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Kinde - .NET Starter kit</title>
+    <style>
+        [hidden] {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+<header>
+    <nav class="nav container">
+        <h1 class="text-display-3">KindeAuth</h1>
+        <partial name="_LoginPartial"/>
+    </nav>
+</header>
+
+<main>
+    <div class="container">
+        @RenderBody()
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <strong class="text-heading-2">KindeAuth</strong>
+        <p class="footer-tagline text-body-3">
+            Visit our
+            <a class="link" href="https://kinde.com/docs">
+                help center
+            </a>
+        </p>
+
+        <small class="text-subtle">
+            © 2022 KindeAuth, Inc. All rights reserved
+        </small>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+﻿@model UserDetailViewModel
+
+<div class="js-logged-in-view">
+    <div class="card start-hero">
+        <p class="text-display-2">
+            User Details
+        </p>
+    </div>
+
+    <div class="user-fields">
+        <h3>Avatar</h3>
+        <input title="picture" value="@Model.UserDetail?.Picture"/>
+    </div>
+
+    <div class="user-fields">
+        <h3>Given name</h3>
+        <input title="given name" value="@Model.UserDetail?.GivenName"/>
+    </div>
+
+    <div class="user-fields">
+        <h3>Family name</h3>
+        <input title="given name" value="@Model.UserDetail?.FamilyName"/>
+    </div>
+
+    <div class="user-fields">
+        <h3>Email</h3>
+        <input title="email" value="@Model.UserDetail?.Email"/>
+    </div>
+
+    <div class="user-fields">
+        <h3>Kinde Id</h3>
+        <input title="email" value="@Model.UserDetail?.Id" />
+    </div>
+
+    <div class="user-fields">
+        @Html.ActionLink("Back to Home", "Index", "Home", null, new { @class = "btn btn-dark" })
+    </div>
+</div>

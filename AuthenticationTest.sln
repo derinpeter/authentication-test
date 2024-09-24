@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceWebAPI", "ServiceWebAPI\ServiceWebAPI.csproj", "{302F4953-5FFE-4CEC-BED6-558CD898B71C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UIMvcApp", "UIMvcApp\UIMvcApp.csproj", "{AEA4D87B-71AF-4909-9869-71E44120EFA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Auth0.DemoMvc", "Autho0.DemoMVC\Auth0.DemoMvc.csproj", "{AEA4D87B-71AF-4909-9869-71E44120EFA6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{977744AE-656B-47C9-B517-7EB64CCE07B9}"
 	ProjectSection(SolutionItems) = preProject
